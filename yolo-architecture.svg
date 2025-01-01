@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+    <!-- Background -->
+    <rect width="1000" height="600" fill="#f8f9fa"/>
+    
+    <!-- Title -->
+    <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">
+        YOLOv8 Architecture for Gaelic Football Detection
+    </text>
+
+    <!-- Input Image -->
+    <rect x="50" y="70" width="100" height="100" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+    <text x="100" y="120" text-anchor="middle" font-size="14">Input Image</text>
+    <text x="100" y="140" text-anchor="middle" font-size="12">(640×640)</text>
+
+    <!-- CSPDarknet Backbone -->
+    <g transform="translate(200, 50)">
+        <rect x="0" y="0" width="250" height="140" fill="#fff" stroke="#1976d2" stroke-width="2" rx="5"/>
+        <text x="125" y="25" text-anchor="middle" font-size="16" font-weight="bold">CSPDarknet Backbone</text>
+        
+        <!-- CSP Blocks -->
+        <rect x="20" y="40" width="210" height="80" fill="#bbdefb" stroke="#1976d2" stroke-width="1" rx="3"/>
+        <text x="125" y="60" text-anchor="middle" font-size="12">CSP Stages</text>
+        <line x1="40" y1="70" x2="210" y2="70" stroke="#1976d2" stroke-width="1"/>
+        <text x="125" y="85" text-anchor="middle" font-size="10">Stage 1 (128) → Stage 2 (256)</text>
+        <text x="125" y="100" text-anchor="middle" font-size="10">Stage 3 (512) → Stage 4 (1024)</text>
+    </g>
+
+    <!-- PAN Neck -->
+    <g transform="translate(200, 230)">
+        <rect x="0" y="0" width="250" height="140" fill="#fff" stroke="#388e3c" stroke-width="2" rx="5"/>
+        <text x="125" y="25" text-anchor="middle" font-size="16" font-weight="bold">PAN Neck</text>
+        
+        <!-- Feature Fusion -->
+        <rect x="20" y="40" width="210" height="80" fill="#c8e6c9" stroke="#388e3c" stroke-width="1" rx="3"/>
+        <text x="125" y="60" text-anchor="middle" font-size="12">Feature Fusion</text>
+        <line x1="40" y1="70" x2="210" y2="70" stroke="#388e3c" stroke-width="1"/>
+        <text x="125" y="85" text-anchor="middle" font-size="10">Top-down Path (P5 → P4 → P3)</text>
+        <text x="125" y="100" text-anchor="middle" font-size="10">Bottom-up Enhancement</text>
+    </g>
+
+    <!-- Detection Heads -->
+    <g transform="translate(500, 140)">
+        <rect x="0" y="0" width="400" height="140" fill="#fff" stroke="#c62828" stroke-width="2" rx="5"/>
+        <text x="200" y="25" text-anchor="middle" font-size="16" font-weight="bold">Detection Heads</text>
+        
+        <!-- Three branches -->
+        <g transform="translate(20, 40)">
+            <!-- Classification -->
+            <rect x="0" y="0" width="110" height="80" fill="#ffcdd2" stroke="#c62828" stroke-width="1" rx="3"/>
+            <text x="55" y="20" text-anchor="middle" font-size="12">Classification</text>
+            <text x="55" y="40" text-anchor="middle" font-size="10">Ball/Player</text>
+            <text x="55" y="60" text-anchor="middle" font-size="10">Weight: 0.3</text>
+            
+            <!-- Box Regression -->
+            <rect x="130" y="0" width="110" height="80" fill="#ffcdd2" stroke="#c62828" stroke-width="1" rx="3"/>
+            <text x="185" y="20" text-anchor="middle" font-size="12">Box Regression</text>
+            <text x="185" y="40" text-anchor="middle" font-size="10">IoU-aware</text>
+            <text x="185" y="60" text-anchor="middle" font-size="10">Weight: 10.0</text>
+            
+            <!-- DFL -->
+            <rect x="260" y="0" width="110" height="80" fill="#ffcdd2" stroke="#c62828" stroke-width="1" rx="3"/>
+            <text x="315" y="20" text-anchor="middle" font-size="12">DFL</text>
+            <text x="315" y="40" text-anchor="middle" font-size="10">Distribution</text>
+            <text x="315" y="60" text-anchor="middle" font-size="10">Weight: 2.0</text>
+        </g>
+    </g>
+
+    <!-- Output -->
+    <g transform="translate(500, 320)">
+        <rect x="0" y="0" width="400" height="100" fill="#fff" stroke="#7b1fa2" stroke-width="2" rx="5"/>
+        <text x="200" y="30" text-anchor="middle" font-size="16" font-weight="bold">Predictions</text>
+        <text x="200" y="55" text-anchor="middle" font-size="12">Ball Detection (Conf: 0.3)</text>
+        <text x="200" y="75" text-anchor="middle" font-size="12">Player Detection (Conf: 0.4)</text>
+    </g>
+
+    <!-- Arrows -->
+    <!-- Input to Backbone -->
+    <path d="M150,120 L200,120" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Backbone to PAN -->
+    <path d="M450,120 L500,120" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- PAN to Detection -->
+    <path d="M450,300 L500,300" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Detection to Output -->
+    <path d="M700,280 L700,320" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- Arrow Marker -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+
+    <!-- Legend -->
+    <g transform="translate(50, 500)">
+        <text x="0" y="0" font-size="14" font-weight="bold">Feature Scales:</text>
+        <rect x="0" y="10" width="15" height="15" fill="#e3f2fd"/>
+        <text x="25" y="22" font-size="12">Small (Ball): P3 1/8</text>
+        <rect x="150" y="10" width="15" height="15" fill="#c8e6c9"/>
+        <text x="175" y="22" font-size="12">Medium (Player): P4 1/16</text>
+        <rect x="300" y="10" width="15" height="15" fill="#ffcdd2"/>
+        <text x="325" y="22" font-size="12">Large (Context): P5 1/32</text>
+    </g>
+</svg>
