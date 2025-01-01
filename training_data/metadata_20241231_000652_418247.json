@@ -1,0 +1,1153 @@
+{
+  "frame_path": "frame_20241231_000652_418247.jpg",
+  "calibration_data": {
+    "players": [
+      {
+        "bbox": [
+          124,
+          276,
+          136,
+          318
+        ],
+        "transformed_position": [
+          412.665283203125,
+          327.60906982421875
+        ],
+        "jersey_colour": "team_1",
+        "colour_confidence": 0.10758911818265915,
+        "number": 4,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          296,
+          265,
+          310,
+          298
+        ],
+        "transformed_position": [
+          440.77386474609375,
+          371.070556640625
+        ],
+        "jersey_colour": "team_1",
+        "colour_confidence": 0.0877658948302269,
+        "number": 13,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          334,
+          279,
+          344,
+          321
+        ],
+        "transformed_position": [
+          422.8506164550781,
+          390.9095764160156
+        ],
+        "jersey_colour": "team_1",
+        "colour_confidence": 0.9225267767906189,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          435,
+          256,
+          446,
+          286
+        ],
+        "transformed_position": [
+          473.7631530761719,
+          433.5799560546875
+        ],
+        "jersey_colour": "team_1",
+        "colour_confidence": 0.2933039963245392,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          371,
+          259,
+          386,
+          296
+        ],
+        "transformed_position": [
+          450.08697509765625,
+          401.8520812988281
+        ],
+        "jersey_colour": "team_1",
+        "colour_confidence": 0.08351335674524307,
+        "number": 15,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          344,
+          251,
+          356,
+          280
+        ],
+        "transformed_position": [
+          474.890380859375,
+          384.191162109375
+        ],
+        "jersey_colour": "team_1",
+        "colour_confidence": 0.09724565595388412,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          150,
+          260,
+          162,
+          295
+        ],
+        "transformed_position": [
+          431.7803649902344,
+          311.9406433105469
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.08788833767175674,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          18,
+          253,
+          30,
+          283
+        ],
+        "transformed_position": [
+          433.44964599609375,
+          238.7528533935547
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.778083324432373,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          390,
+          252,
+          399,
+          279
+        ],
+        "transformed_position": [
+          483.5597839355469,
+          409.4703674316406
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.307400107383728,
+        "number": 13,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          256,
+          244,
+          267,
+          270
+        ],
+        "transformed_position": [
+          487.1706237792969,
+          321.5602722167969
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.04076770693063736,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          76,
+          238,
+          82,
+          262
+        ],
+        "transformed_position": [
+          479.52020263671875,
+          185.42987060546875
+        ],
+        "jersey_colour": "team_1",
+        "colour_confidence": 0.5633557438850403,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          280,
+          261,
+          293,
+          294
+        ],
+        "transformed_position": [
+          444.15191650390625,
+          362.0223388671875
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.14700882136821747,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          332,
+          253,
+          339,
+          279
+        ],
+        "transformed_position": [
+          475.17364501953125,
+          375.62054443359375
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.2661018967628479,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          135,
+          240,
+          145,
+          265
+        ],
+        "transformed_position": [
+          481.2486877441406,
+          234.4337158203125
+        ],
+        "jersey_colour": "team_1",
+        "colour_confidence": 0.03753926604986191,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          271,
+          261,
+          283,
+          295
+        ],
+        "transformed_position": [
+          442.0548400878906,
+          358.8092956542969
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.031996555626392365,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          323,
+          235,
+          334,
+          256
+        ],
+        "transformed_position": [
+          568.4805297851562,
+          342.8720703125
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.015367168933153152,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          129,
+          236,
+          135,
+          259
+        ],
+        "transformed_position": [
+          499.7744140625,
+          200.71922302246094
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.09762061387300491,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      },
+      {
+        "bbox": [
+          144,
+          241,
+          152,
+          268
+        ],
+        "transformed_position": [
+          474.3818359375,
+          250.25660705566406
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.3956453502178192,
+        "number": null,
+        "pose": {
+          "landmarks": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "confidence": 0.0,
+          "orientation": null
+        },
+        "orientation": "facing_right",
+        "manually_adjusted": true
+      }
+    ],
+    "goalkeepers": [
+      {
+        "bbox": [
+          242,
+          226,
+          252,
+          250
+        ],
+        "transformed_position": [
+          588.077880859375,
+          235.41458129882812
+        ],
+        "jersey_colour": "team_2",
+        "colour_confidence": 0.0026120503898710012,
+        "number": null,
+        "pose": null,
+        "orientation": null,
+        "manually_adjusted": false
+      }
+    ],
+    "ball": {
+      "bbox": null,
+      "transformed_position": null,
+      "manually_adjusted": false
+    },
+    "homography": [
+      [
+        0.02751013659860922,
+        -1.6399751132613056,
+        337.7369999083821
+      ],
+      [
+        -0.08221605015000805,
+        -1.8598732068898534,
+        459.07053836832887
+      ],
+      [
+        0.0001252992338945052,
+        -0.004569054861137034,
+        1.0
+      ]
+    ],
+    "calibration_points": {
+      "image_points": [
+        [
+          583,
+          372
+        ],
+        [
+          3,
+          310
+        ],
+        [
+          222,
+          248
+        ],
+        [
+          268,
+          250
+        ]
+      ],
+      "template_points": [
+        [
+          409,
+          448
+        ],
+        [
+          410,
+          283
+        ],
+        [
+          597,
+          194
+        ],
+        [
+          597,
+          257
+        ]
+      ]
+    },
+    "visible_area": [
+      [
+        337.73699951171875,
+        459.0705261230469
+      ],
+      [
+        329.4734191894531,
+        381.0906982421875
+      ],
+      [
+        391.21990966796875,
+        435.52264404296875
+      ],
+      [
+        378.99951171875,
+        357.80841064453125
+      ]
+    ]
+  },
+  "field_registration_points": {
+    "image_points": [
+      [
+        583,
+        372
+      ],
+      [
+        3,
+        310
+      ],
+      [
+        222,
+        248
+      ],
+      [
+        268,
+        250
+      ]
+    ],
+    "template_points": [
+      [
+        409,
+        448
+      ],
+      [
+        410,
+        283
+      ],
+      [
+        597,
+        194
+      ],
+      [
+        597,
+        257
+      ]
+    ]
+  },
+  "timestamp": "20241231_000652_418247",
+  "video_source": "/Users/diarmuidwhelan/Documents/videos/5_4.mp4"
+}
