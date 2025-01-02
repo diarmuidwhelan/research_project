@@ -8,44 +8,44 @@ import albumentations as A
 import cv2
 import numpy as np
 
-class BallDetectionOptimiser:
-    """Enhanced settings and augmentations for ball detection"""
-    @staticmethod
-    def get_ball_augmentation():
-        """Custom augmentation pipeline for ball detection"""
-        return A.Compose([
-            # Motion blur simulation
-            A.OneOf([
-                A.MotionBlur(blur_limit=7, p=0.5),
-                A.GaussianBlur(blur_limit=3, p=0.3),
-            ], p=0.5),
+# class BallDetectionOptimiser:
+#     """Enhanced settings and augmentations for ball detection"""
+#     @staticmethod
+#     def get_ball_augmentation():
+#         """Custom augmentation pipeline for ball detection"""
+#         return A.Compose([
+#             # Motion blur simulation
+#             A.OneOf([
+#                 A.MotionBlur(blur_limit=7, p=0.5),
+#                 A.GaussianBlur(blur_limit=3, p=0.3),
+#             ], p=0.5),
 
-            # Visibility enhancement
-            A.OneOf([
-                A.RandomBrightnessContrast(
-                    brightness_limit=0.2,
-                    contrast_limit=0.2,
-                    p=0.5
-                ),
-                A.HueSaturationValue(
-                    hue_shift_limit=10,
-                    sat_shift_limit=20,
-                    val_shift_limit=20,
-                    p=0.5
-                ),
-            ], p=0.5),
+#             # Visibility enhancement
+#             A.OneOf([
+#                 A.RandomBrightnessContrast(
+#                     brightness_limit=0.2,
+#                     contrast_limit=0.2,
+#                     p=0.5
+#                 ),
+#                 A.HueSaturationValue(
+#                     hue_shift_limit=10,
+#                     sat_shift_limit=20,
+#                     val_shift_limit=20,
+#                     p=0.5
+#                 ),
+#             ], p=0.5),
 
-            # Small object enhancement
-            A.OneOf([
-                A.RandomScale(scale_limit=0.2, p=0.5),
-                A.ShiftScaleRotate(
-                    shift_limit=0.1,
-                    scale_limit=0.2,
-                    rotate_limit=15,
-                    p=0.5
-                ),
-            ], p=0.5),
-        ], bbox_params=A.BboxParams(format='yolo', label_fields=['class_labels']))
+#             # Small object enhancement
+#             A.OneOf([
+#                 A.RandomScale(scale_limit=0.2, p=0.5),
+#                 A.ShiftScaleRotate(
+#                     shift_limit=0.1,
+#                     scale_limit=0.2,
+#                     rotate_limit=15,
+#                     p=0.5
+#                 ),
+#             ], p=0.5),
+#         ], bbox_params=A.BboxParams(format='yolo', label_fields=['class_labels']))
 
 def setup_dataset():
     """ dataset setup with memory efficiency"""
@@ -61,7 +61,7 @@ def setup_dataset():
     return str(base_dir)
 
 def create_yaml(base_dir):
-    """Create optimized dataset configuration"""
+    """Create optimised dataset configuration"""
     yaml_content = {
         'path': base_dir,
         'train': 'train/images',
@@ -157,7 +157,7 @@ def train_model(yaml_path):
         flipud=0.5,
         fliplr=0.5,
 
-        # Color augmentation
+        # Colour augmentation
         hsv_h=0.015,
         hsv_s=0.7,
         hsv_v=0.4,
