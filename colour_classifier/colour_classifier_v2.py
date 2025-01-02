@@ -15,7 +15,7 @@ import json
 import matplotlib.pyplot as plt 
 
 class JerseyDataset(Dataset):
-    """Dataset for jersey color classification"""
+    """Dataset for jersey colour classification"""
     def __init__(self, image_paths, labels, transform=None):
         self.image_paths = image_paths
         self.labels = labels
@@ -74,10 +74,10 @@ def parse_annotations(annotations_dir, images_dir):
                     
                     # Check if it's a jersey annotation
                     if parts[0] == 'jersey':
-                        color = parts[1]
+                        colour = parts[1]
                         data.append({
                             'image_path': image_path,
-                            'jersey_color': color
+                            'jersey_colour': colour
                         })
                     else:
                         skipped_objects += 1
@@ -98,8 +98,8 @@ def parse_annotations(annotations_dir, images_dir):
     print("\nDataset Summary:")
     print(f"Total annotations: {len(df)}")
     if len(df) > 0:
-        print("\nJersey color distribution:")
-        print(df['jersey_color'].value_counts())
+        print("\nJersey colour distribution:")
+        print(df['jersey_colour'].value_counts())
         print(f"\nNumber of unique images: {df['image_path'].nunique()}")
     print(f"\nSkipped files: {skipped_files}")
     print(f"Skipped objects: {skipped_objects}")
@@ -110,7 +110,7 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, num_epoch
     """Train model and save metrics"""
     best_val_acc = 0.0
     
-    # Initialize metrics storage
+    # Initialise metrics storage
     metrics = {
         'train_acc': [],
         'val_acc': [],
@@ -312,11 +312,11 @@ def main():
     
     # Encode labels
     le = LabelEncoder()
-    df['label'] = le.fit_transform(df['jersey_color'])
+    df['label'] = le.fit_transform(df['jersey_colour'])
     num_classes = len(le.classes_)
     
     # Save label encoder classes
-    with open('jersey_color_classes.txt', 'w') as f:
+    with open('jersey_colour_classes.txt', 'w') as f:
         for i, class_name in enumerate(le.classes_):
             f.write(f"{i}: {class_name}\n")
     
