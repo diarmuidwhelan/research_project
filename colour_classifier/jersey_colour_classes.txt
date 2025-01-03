@@ -1,0 +1,8 @@
+0: black
+1: blue
+2: green
+3: maroon
+4: orange
+5: red
+6: white
+7: yellow
