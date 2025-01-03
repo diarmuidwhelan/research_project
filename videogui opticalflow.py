@@ -83,15 +83,6 @@ class ModelTrainingDataCollector:
         # Save data for ball detection
         self._save_ball_detection_data(frame, frame_filename, calibration_data, timestamp)
         
-        # Save data for jersey colour classification
-        # self._save_colour_classification_data(frame, calibration_data, timestamp)
-        
-        # Save data for number recognition
-        # self._save_number_recognition_data(frame, calibration_data, timestamp)
-        
-        # Save data for pose estimation
-        # self._save_pose_estimation_data(frame, calibration_data, timestamp)
-        
         # Save field registration data
         self._save_field_registration_data(frame, calibration_data, timestamp)
         
@@ -146,73 +137,6 @@ class ModelTrainingDataCollector:
             annotation_path = self.base_dir / "ball_detection/annotations" / f"{timestamp}.txt"
             with open(annotation_path, 'w') as f:
                 f.write(f"2 {x_centre} {y_centre} {width} {height}")
-
-    # def _save_colour_classification_data(self, frame, calibration_data, timestamp):
-    #     for idx, player in enumerate(calibration_data['players']):
-    #         if player.get('manually_adjusted', False):
-    #             bbox = player['bbox']
-    #             # Add padding to bbox
-    #             x1, y1, x2, y2 = bbox
-    #             padding = int((x2 - x1) * 0.1)  # 10% padding
-    #             x1 = max(0, x1 - padding)
-    #             y1 = max(0, y1 - padding)
-    #             x2 = min(frame.shape[1], x2 + padding)
-    #             y2 = min(frame.shape[0], y2 + padding)
-                
-    #             player_mask = frame[int(y1):int(y2), int(x1):int(x2)]
-                
-    #             if player_mask.size > 0:
-    #                 image_path = self.base_dir / "colour_classification/images" / f"{timestamp}_{idx}.jpg"
-    #                 cv2.imwrite(str(image_path), player_mask)
-                    
-    #                 label_path = self.base_dir / "colour_classification/labels" / f"{timestamp}_{idx}.txt"
-    #                 with open(label_path, 'w') as f:
-    #                     f.write(player['jersey_colour'])
-
-    # def _save_number_recognition_data(self, frame, calibration_data, timestamp):
-    #     for idx, player in enumerate(calibration_data['players'] + calibration_data.get('goalkeepers', [])):
-    #         if player.get('number') and player.get('manually_adjusted', False):
-    #             bbox = player['bbox']
-    #             # Adjust bbox to focus on upper body where numbers typically are
-    #             x1, y1, x2, y2 = bbox
-    #             y2 = y1 + (y2 - y1) * 0.6  # Take top 60% of player bbox
-    #             padding = int((x2 - x1) * 0.1)
-    #             x1 = max(0, x1 - padding)
-    #             y1 = max(0, y1 - padding)
-    #             x2 = min(frame.shape[1], x2 + padding)
-    #             y2 = min(frame.shape[0], y2)
-                
-    #             number_mask = frame[int(y1):int(y2), int(x1):int(x2)]
-                
-    #             if number_mask.size > 0:
-    #                 image_path = self.base_dir / "number_recognition/images" / f"{timestamp}_{idx}.jpg"
-    #                 cv2.imwrite(str(image_path), number_mask)
-                    
-    #                 label_path = self.base_dir / "number_recognition/labels" / f"{timestamp}_{idx}.txt"
-    #                 with open(label_path, 'w') as f:
-    #                     f.write(str(player['number']))
-
-    # def _save_pose_estimation_data(self, frame, calibration_data, timestamp):
-    #     for idx, player in enumerate(calibration_data['players'] + calibration_data.get('goalkeepers', [])):
-    #         if player.get('pose') and player.get('manually_adjusted', False):
-    #             bbox = player['bbox']
-    #             # Add extra padding for full body pose
-    #             x1, y1, x2, y2 = bbox
-    #             padding = int((x2 - x1) * 0.15)  # 15% padding for pose
-    #             x1 = max(0, x1 - padding)
-    #             y1 = max(0, y1 - padding)
-    #             x2 = min(frame.shape[1], x2 + padding)
-    #             y2 = min(frame.shape[0], y2 + padding)
-                
-    #             pose_mask = frame[int(y1):int(y2), int(x1):int(x2)]
-                
-    #             if pose_mask.size > 0:
-    #                 image_path = self.base_dir / "pose_estimation/images" / f"{timestamp}_{idx}.jpg"
-    #                 cv2.imwrite(str(image_path), pose_mask)
-                    
-    #                 keypoints_path = self.base_dir / "pose_estimation/keypoints" / f"{timestamp}_{idx}.json"
-    #                 with open(keypoints_path, 'w') as f:
-    #                     json.dump(player['pose'], f, cls=NumpyJSONEncoder)
 
     def _save_field_registration_data(self, frame, calibration_data, timestamp):
          #save image to the appropriate directory
