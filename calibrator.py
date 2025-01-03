@@ -1143,8 +1143,7 @@ class GaelicFootballCalibrator:
                             obj['transformed_position'] = (float(tx), float(ty))
                         else:
                             obj['transformed_position'] = None
-            
-                            
+                    
             # Transform ball position if exists
             if self.ball:
                 x1, y1, x2, y2 = self.ball
@@ -1158,8 +1157,6 @@ class GaelicFootballCalibrator:
                     self.ball_transformed = (float(tx), float(ty))
                 else:
                     self.ball_transformed = None
-
-                
         except Exception as e:
             print(f"Coordinate transformation error: {str(e)}")
 
