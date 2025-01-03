@@ -1,0 +1,4307 @@
+{
+  "video_path": "/Users/diarmuidwhelan/Documents/videos/5_4.mp4",
+  "total_events": 3,
+  "team1_colour": "maroon",
+  "team2_colour": "blue",
+  "events": [
+    {
+      "event_number": 1,
+      "timestamp": 3.6,
+      "start_frame": 60,
+      "end_frame": 90,
+      "event_name": "hand pass",
+      "team": "Team 1",
+      "player_number": 13,
+      "body_part": "RH",
+      "ball_start_location": {
+        "x": 439,
+        "y": 337
+      },
+      "ball_end_location": {
+        "x": 427,
+        "y": 311
+      },
+      "half": "1",
+      "calibration_data": {
+        "players": [
+          {
+            "bbox": [
+              363,
+              252,
+              374,
+              282
+            ],
+            "transformed_position": [
+              493.2142333984375,
+              395.5931701660156
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.27358031272888184,
+            "number": 8,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              248,
+              280,
+              259,
+              320
+            ],
+            "transformed_position": [
+              426.9861145019531,
+              392.0356750488281
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.2281428426504135,
+            "number": 3,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              152,
+              255,
+              164,
+              286
+            ],
+            "transformed_position": [
+              467.6596374511719,
+              326.89398193359375
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.06380338966846466,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              409,
+              259,
+              424,
+              287
+            ],
+            "transformed_position": [
+              484.68316650390625,
+              415.2338562011719
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.00939833652228117,
+            "number": 13,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              264,
+              257,
+              280,
+              292
+            ],
+            "transformed_position": [
+              464.35784912109375,
+              373.97705078125
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.03664233908057213,
+            "number": 15,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              26,
+              264,
+              38,
+              299
+            ],
+            "transformed_position": [
+              436.3421630859375,
+              311.17596435546875
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.035228099673986435,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              293,
+              250,
+              303,
+              277
+            ],
+            "transformed_position": [
+              501.6766662597656,
+              362.9996337890625
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.22170071303844452,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              216,
+              242,
+              224,
+              267
+            ],
+            "transformed_position": [
+              531.6895751953125,
+              303.72174072265625
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.5447818040847778,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              334,
+              241,
+              341,
+              267
+            ],
+            "transformed_position": [
+              542.42724609375,
+              362.37774658203125
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.3378101885318756,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              65,
+              243,
+              73,
+              270
+            ],
+            "transformed_position": [
+              504.71600341796875,
+              238.0827178955078
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.03723010793328285,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              387,
+              242,
+              394,
+              268
+            ],
+            "transformed_position": [
+              542.5101928710938,
+              389.01904296875
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.9751681685447693,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_down",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              263,
+              234,
+              269,
+              255
+            ],
+            "transformed_position": null,
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.37736648321151733,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              343,
+              254,
+              349,
+              281
+            ],
+            "transformed_position": [
+              494.12750244140625,
+              386.562744140625
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.6966465711593628,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              250,
+              234,
+              256,
+              256
+            ],
+            "transformed_position": null,
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.14987461268901825,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          }
+        ],
+        "goalkeepers": [
+          {
+            "bbox": [
+              160,
+              230,
+              166,
+              250
+            ],
+            "transformed_position": null,
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.0016298688715323806,
+            "number": null,
+            "pose": null,
+            "orientation": null,
+            "manually_adjusted": false
+          }
+        ],
+        "ball": {
+          "bbox": [
+            402,
+            266,
+            422,
+            286
+          ],
+          "transformed_position": [
+            513.9397583007812,
+            406.426513671875
+          ],
+          "manually_adjusted": true
+        },
+        "homography": [
+          [
+            -0.04517528821013449,
+            -1.4955226113903315,
+            309.0775417071002
+          ],
+          [
+            -0.11272353364315621,
+            -1.9837014331184977,
+            497.2290028141885
+          ],
+          [
+            -5.1544778590806885e-05,
+            -0.004408431466104295,
+            1.0
+          ]
+        ],
+        "calibration_points": {
+          "image_points": [
+            [
+              486,
+              363
+            ],
+            [
+              6,
+              324
+            ],
+            [
+              176,
+              270
+            ],
+            [
+              522,
+              260
+            ]
+          ],
+          "template_points": [
+            [
+              409,
+              444
+            ],
+            [
+              410,
+              341
+            ],
+            [
+              515,
+              292
+            ],
+            [
+              597,
+              447
+            ]
+          ]
+        },
+        "visible_area": [
+          [
+            309.0775451660156,
+            497.22900390625
+          ],
+          [
+            290.97119140625,
+            443.3049011230469
+          ],
+          [
+            385.3402099609375,
+            456.352783203125
+          ],
+          [
+            369.9022216796875,
+            401.9505920410156
+          ]
+        ]
+      },
+      "ball_position": [
+        484.68316650390625,
+        415.2338562011719
+      ]
+    },
+    {
+      "event_number": 2,
+      "timestamp": 5.24,
+      "start_frame": 125,
+      "end_frame": 131,
+      "event_name": "hand pass",
+      "team": "Team 1",
+      "player_number": 15,
+      "body_part": "RH",
+      "ball_start_location": {
+        "x": 472,
+        "y": 346
+      },
+      "ball_end_location": {
+        "x": 448,
+        "y": 336
+      },
+      "half": "1",
+      "calibration_data": {
+        "players": [
+          {
+            "bbox": [
+              25,
+              276,
+              41,
+              315
+            ],
+            "transformed_position": [
+              414.33551025390625,
+              345.2603759765625
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.026336880400776863,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              249,
+              270,
+              260,
+              308
+            ],
+            "transformed_position": [
+              434.98895263671875,
+              387.0907897949219
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.41182389855384827,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_up",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              398,
+              245,
+              407,
+              271
+            ],
+            "transformed_position": [
+              518.1298217773438,
+              402.16485595703125
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.6636664867401123,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_down",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              88,
+              260,
+              100,
+              293
+            ],
+            "transformed_position": [
+              441.8925476074219,
+              333.6627197265625
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.11186130344867706,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              277,
+              232,
+              284,
+              253
+            ],
+            "transformed_position": [
+              575.1995849609375,
+              319.57818603515625
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.0782633125782013,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              302,
+              258,
+              312,
+              291
+            ],
+            "transformed_position": [
+              462.21868896484375,
+              387.9795837402344
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.8061403632164001,
+            "number": 13,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              284,
+              233,
+              291,
+              253
+            ],
+            "transformed_position": [
+              576.4876708984375,
+              323.0077819824219
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.33204835653305054,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              333,
+              246,
+              343,
+              271
+            ],
+            "transformed_position": [
+              510.234375,
+              378.406494140625
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.1185309886932373,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              342,
+              255,
+              352,
+              282
+            ],
+            "transformed_position": [
+              483.11065673828125,
+              392.42559814453125
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.7918519377708435,
+            "number": 15,
+            "pose": {
+              "landmarks": [
+                {
+                  "x": 365.1318140029907,
+                  "y": 272.9282809495926,
+                  "z": -1.1759166717529297,
+                  "visibility": 0.7910544872283936
+                },
+                {
+                  "x": 365.69718074798584,
+                  "y": 272.07690596580505,
+                  "z": -1.424575686454773,
+                  "visibility": 0.7843990325927734
+                },
+                {
+                  "x": 365.7918949127197,
+                  "y": 272.33474081754684,
+                  "z": -1.422966480255127,
+                  "visibility": 0.7849735021591187
+                },
+                {
+                  "x": 365.8374733924866,
+                  "y": 272.4746893644333,
+                  "z": -1.4208770990371704,
+                  "visibility": 0.7571459412574768
+                },
+                {
+                  "x": 365.60130310058594,
+                  "y": 272.1059301495552,
+                  "z": -1.02998685836792,
+                  "visibility": 0.7662125825881958
+                },
+                {
+                  "x": 365.5964012145996,
+                  "y": 272.1931748986244,
+                  "z": -1.028115153312683,
+                  "visibility": 0.7628006339073181
+                },
+                {
+                  "x": 365.589882850647,
+                  "y": 272.2729523777962,
+                  "z": -1.0258171558380127,
+                  "visibility": 0.7610289454460144
+                },
+                {
+                  "x": 365.5709571838379,
+                  "y": 274.1983155012131,
+                  "z": -1.779529094696045,
+                  "visibility": 0.682858943939209
+                },
+                {
+                  "x": 365.3442234992981,
+                  "y": 274.1207862496376,
+                  "z": -0.4155482053756714,
+                  "visibility": 0.6769163012504578
+                },
+                {
+                  "x": 364.295823097229,
+                  "y": 274.66409450769424,
+                  "z": -1.263174057006836,
+                  "visibility": 0.6252703666687012
+                },
+                {
+                  "x": 364.44967460632324,
+                  "y": 275.1011792421341,
+                  "z": -0.7937485575675964,
+                  "visibility": 0.6033346056938171
+                },
+                {
+                  "x": 366.104106426239,
+                  "y": 283.70004630088806,
+                  "z": -2.383143424987793,
+                  "visibility": 0.3316725194454193
+                },
+                {
+                  "x": 359.38402247428894,
+                  "y": 283.62187814712524,
+                  "z": 0.3407909572124481,
+                  "visibility": 0.3435341715812683
+                },
+                {
+                  "x": 357.12088894844055,
+                  "y": 278.15086537599564,
+                  "z": -3.439779281616211,
+                  "visibility": 0.5367476344108582
+                },
+                {
+                  "x": 352.6799077987671,
+                  "y": 276.5923157930374,
+                  "z": -0.42610856890678406,
+                  "visibility": 0.17697589099407196
+                },
+                {
+                  "x": 352.245817899704,
+                  "y": 270.52043402194977,
+                  "z": -3.4159185886383057,
+                  "visibility": 0.5102543234825134
+                },
+                {
+                  "x": 351.91138875484467,
+                  "y": 269.9921214580536,
+                  "z": -0.1755186915397644,
+                  "visibility": 0.31505247950553894
+                },
+                {
+                  "x": 350.91402781009674,
+                  "y": 268.3290767669678,
+                  "z": -4.070170879364014,
+                  "visibility": 0.5322086811065674
+                },
+                {
+                  "x": 352.46067476272583,
+                  "y": 268.1790216565132,
+                  "z": -0.14755049347877502,
+                  "visibility": 0.3630029857158661
+                },
+                {
+                  "x": 347.2082061767578,
+                  "y": 267.5498599112034,
+                  "z": -3.9715347290039062,
+                  "visibility": 0.5282986760139465
+                },
+                {
+                  "x": 348.45997881889343,
+                  "y": 265.53115832805634,
+                  "z": -0.19633211195468903,
+                  "visibility": 0.37112489342689514
+                },
+                {
+                  "x": 352.57243824005127,
+                  "y": 268.48615658283234,
+                  "z": -3.436638593673706,
+                  "visibility": 0.48965826630592346
+                },
+                {
+                  "x": 351.12163496017456,
+                  "y": 267.95843866467476,
+                  "z": -0.40685975551605225,
+                  "visibility": 0.36268484592437744
+                },
+                {
+                  "x": 364.4017381668091,
+                  "y": 316.8191134929657,
+                  "z": -1.0758700370788574,
+                  "visibility": 0.005100059323012829
+                },
+                {
+                  "x": 360.4804344177246,
+                  "y": 317.11299562454224,
+                  "z": 1.0848232507705688,
+                  "visibility": 0.005303363315761089
+                },
+                {
+                  "x": 358.2353241443634,
+                  "y": 298.215855717659,
+                  "z": -1.6869988441467285,
+                  "visibility": 0.2560732960700989
+                },
+                {
+                  "x": 353.27434968948364,
+                  "y": 298.4394714832306,
+                  "z": 1.0420289039611816,
+                  "visibility": 0.08902421593666077
+                },
+                {
+                  "x": 347.9979271888733,
+                  "y": 299.7771781682968,
+                  "z": 1.1327061653137207,
+                  "visibility": 0.25556501746177673
+                },
+                {
+                  "x": 350.2250541448593,
+                  "y": 296.6563582420349,
+                  "z": 2.965075731277466,
+                  "visibility": 0.10807671397924423
+                },
+                {
+                  "x": 342.1146617811173,
+                  "y": 301.0926021337509,
+                  "z": 1.2499290704727173,
+                  "visibility": 0.2331281304359436
+                },
+                {
+                  "x": 346.3300560116768,
+                  "y": 298.03990495204926,
+                  "z": 3.214421510696411,
+                  "visibility": 0.13395364582538605
+                },
+                {
+                  "x": 347.057954788208,
+                  "y": 295.7391200065613,
+                  "z": -0.5687562227249146,
+                  "visibility": 0.29709500074386597
+                },
+                {
+                  "x": 349.9234856367111,
+                  "y": 289.5197821855545,
+                  "z": 1.8920010328292847,
+                  "visibility": 0.169128879904747
+                }
+              ],
+              "confidence": 0.43665633435276424,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              248,
+              250,
+              260,
+              274
+            ],
+            "transformed_position": [
+              492.2259521484375,
+              353.025390625
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.11529571563005447,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                {
+                  "x": 275.75817680358887,
+                  "y": 265.9362497329712,
+                  "z": -1.1759166717529297,
+                  "visibility": 0.7910544872283936
+                },
+                {
+                  "x": 276.436616897583,
+                  "y": 265.1794719696045,
+                  "z": -1.424575686454773,
+                  "visibility": 0.7843990325927734
+                },
+                {
+                  "x": 276.5502738952637,
+                  "y": 265.4086585044861,
+                  "z": -1.422966480255127,
+                  "visibility": 0.7849735021591187
+                },
+                {
+                  "x": 276.6049680709839,
+                  "y": 265.5330572128296,
+                  "z": -1.4208770990371704,
+                  "visibility": 0.7571459412574768
+                },
+                {
+                  "x": 276.3215637207031,
+                  "y": 265.2052712440491,
+                  "z": -1.02998685836792,
+                  "visibility": 0.7662125825881958
+                },
+                {
+                  "x": 276.31568145751953,
+                  "y": 265.2828221321106,
+                  "z": -1.028115153312683,
+                  "visibility": 0.7628006339073181
+                },
+                {
+                  "x": 276.30785942077637,
+                  "y": 265.35373544692993,
+                  "z": -1.0258171558380127,
+                  "visibility": 0.7610289454460144
+                },
+                {
+                  "x": 276.28514862060547,
+                  "y": 267.0651693344116,
+                  "z": -1.779529094696045,
+                  "visibility": 0.682858943939209
+                },
+                {
+                  "x": 276.0130681991577,
+                  "y": 266.9962544441223,
+                  "z": -0.4155482053756714,
+                  "visibility": 0.6769163012504578
+                },
+                {
+                  "x": 274.7549877166748,
+                  "y": 267.47919511795044,
+                  "z": -1.263174057006836,
+                  "visibility": 0.6252703666687012
+                },
+                {
+                  "x": 274.9396095275879,
+                  "y": 267.867714881897,
+                  "z": -0.7937485575675964,
+                  "visibility": 0.6033346056938171
+                },
+                {
+                  "x": 276.9249277114868,
+                  "y": 275.51115226745605,
+                  "z": -2.383143424987793,
+                  "visibility": 0.3316725194454193
+                },
+                {
+                  "x": 268.86082696914673,
+                  "y": 275.4416694641113,
+                  "z": 0.3407909572124481,
+                  "visibility": 0.3435341715812683
+                },
+                {
+                  "x": 266.14506673812866,
+                  "y": 270.578547000885,
+                  "z": -3.439779281616211,
+                  "visibility": 0.5367476344108582
+                },
+                {
+                  "x": 260.8158893585205,
+                  "y": 269.19316959381104,
+                  "z": -0.42610856890678406,
+                  "visibility": 0.17697589099407196
+                },
+                {
+                  "x": 260.2949814796448,
+                  "y": 263.79594135284424,
+                  "z": -3.4159185886383057,
+                  "visibility": 0.5102543234825134
+                },
+                {
+                  "x": 259.8936665058136,
+                  "y": 263.3263301849365,
+                  "z": -0.1755186915397644,
+                  "visibility": 0.31505247950553894
+                },
+                {
+                  "x": 258.6968333721161,
+                  "y": 261.8480682373047,
+                  "z": -4.070170879364014,
+                  "visibility": 0.5322086811065674
+                },
+                {
+                  "x": 260.552809715271,
+                  "y": 261.71468591690063,
+                  "z": -0.14755049347877502,
+                  "visibility": 0.3630029857158661
+                },
+                {
+                  "x": 254.24984741210938,
+                  "y": 261.1554310321808,
+                  "z": -3.9715347290039062,
+                  "visibility": 0.5282986760139465
+                },
+                {
+                  "x": 255.75197458267212,
+                  "y": 259.36102962493896,
+                  "z": -0.19633211195468903,
+                  "visibility": 0.37112489342689514
+                },
+                {
+                  "x": 260.6869258880615,
+                  "y": 261.9876947402954,
+                  "z": -3.436638593673706,
+                  "visibility": 0.48965826630592346
+                },
+                {
+                  "x": 258.9459619522095,
+                  "y": 261.51861214637756,
+                  "z": -0.40685975551605225,
+                  "visibility": 0.36268484592437744
+                },
+                {
+                  "x": 274.8820858001709,
+                  "y": 304.9503231048584,
+                  "z": -1.0758700370788574,
+                  "visibility": 0.005100059323012829
+                },
+                {
+                  "x": 270.17652130126953,
+                  "y": 305.21155166625977,
+                  "z": 1.0848232507705688,
+                  "visibility": 0.005303363315761089
+                },
+                {
+                  "x": 267.4823889732361,
+                  "y": 288.41409397125244,
+                  "z": -1.6869988441467285,
+                  "visibility": 0.2560732960700989
+                },
+                {
+                  "x": 261.52921962738037,
+                  "y": 288.6128635406494,
+                  "z": 1.0420289039611816,
+                  "visibility": 0.08902421593666077
+                },
+                {
+                  "x": 255.19751262664795,
+                  "y": 289.80193614959717,
+                  "z": 1.1327061653137207,
+                  "visibility": 0.25556501746177673
+                },
+                {
+                  "x": 257.8700649738312,
+                  "y": 287.0278739929199,
+                  "z": 2.965075731277466,
+                  "visibility": 0.10807671397924423
+                },
+                {
+                  "x": 248.13759413734078,
+                  "y": 290.9712018966675,
+                  "z": 1.2499290704727173,
+                  "visibility": 0.2331281304359436
+                },
+                {
+                  "x": 253.19606721401215,
+                  "y": 288.25769329071045,
+                  "z": 3.214421510696411,
+                  "visibility": 0.13395364582538605
+                },
+                {
+                  "x": 254.0695457458496,
+                  "y": 286.21255111694336,
+                  "z": -0.5687562227249146,
+                  "visibility": 0.29709500074386597
+                },
+                {
+                  "x": 257.50818276405334,
+                  "y": 280.684250831604,
+                  "z": 1.8920010328292847,
+                  "visibility": 0.169128879904747
+                }
+              ],
+              "confidence": 0.43665633435276424,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              322,
+              253,
+              330,
+              280
+            ],
+            "transformed_position": [
+              485.4525146484375,
+              384.0078430175781
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.0729466900229454,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                {
+                  "x": 340.5054512023926,
+                  "y": 270.9282809495926,
+                  "z": -1.1759166717529297,
+                  "visibility": 0.7910544872283936
+                },
+                {
+                  "x": 340.9577445983887,
+                  "y": 270.07690596580505,
+                  "z": -1.424575686454773,
+                  "visibility": 0.7843990325927734
+                },
+                {
+                  "x": 341.0335159301758,
+                  "y": 270.33474081754684,
+                  "z": -1.422966480255127,
+                  "visibility": 0.7849735021591187
+                },
+                {
+                  "x": 341.06997871398926,
+                  "y": 270.4746893644333,
+                  "z": -1.4208770990371704,
+                  "visibility": 0.7571459412574768
+                },
+                {
+                  "x": 340.88104248046875,
+                  "y": 270.1059301495552,
+                  "z": -1.02998685836792,
+                  "visibility": 0.7662125825881958
+                },
+                {
+                  "x": 340.8771209716797,
+                  "y": 270.1931748986244,
+                  "z": -1.028115153312683,
+                  "visibility": 0.7628006339073181
+                },
+                {
+                  "x": 340.8719062805176,
+                  "y": 270.2729523777962,
+                  "z": -1.0258171558380127,
+                  "visibility": 0.7610289454460144
+                },
+                {
+                  "x": 340.8567657470703,
+                  "y": 272.1983155012131,
+                  "z": -1.779529094696045,
+                  "visibility": 0.682858943939209
+                },
+                {
+                  "x": 340.6753787994385,
+                  "y": 272.1207862496376,
+                  "z": -0.4155482053756714,
+                  "visibility": 0.6769163012504578
+                },
+                {
+                  "x": 339.8366584777832,
+                  "y": 272.66409450769424,
+                  "z": -1.263174057006836,
+                  "visibility": 0.6252703666687012
+                },
+                {
+                  "x": 339.9597396850586,
+                  "y": 273.1011792421341,
+                  "z": -0.7937485575675964,
+                  "visibility": 0.6033346056938171
+                },
+                {
+                  "x": 341.2832851409912,
+                  "y": 281.70004630088806,
+                  "z": -2.383143424987793,
+                  "visibility": 0.3316725194454193
+                },
+                {
+                  "x": 335.90721797943115,
+                  "y": 281.62187814712524,
+                  "z": 0.3407909572124481,
+                  "visibility": 0.3435341715812683
+                },
+                {
+                  "x": 334.09671115875244,
+                  "y": 276.15086537599564,
+                  "z": -3.439779281616211,
+                  "visibility": 0.5367476344108582
+                },
+                {
+                  "x": 330.5439262390137,
+                  "y": 274.5923157930374,
+                  "z": -0.42610856890678406,
+                  "visibility": 0.17697589099407196
+                },
+                {
+                  "x": 330.1966543197632,
+                  "y": 268.52043402194977,
+                  "z": -3.4159185886383057,
+                  "visibility": 0.5102543234825134
+                },
+                {
+                  "x": 329.92911100387573,
+                  "y": 267.9921214580536,
+                  "z": -0.1755186915397644,
+                  "visibility": 0.31505247950553894
+                },
+                {
+                  "x": 329.1312222480774,
+                  "y": 266.3290767669678,
+                  "z": -4.070170879364014,
+                  "visibility": 0.5322086811065674
+                },
+                {
+                  "x": 330.36853981018066,
+                  "y": 266.1790216565132,
+                  "z": -0.14755049347877502,
+                  "visibility": 0.3630029857158661
+                },
+                {
+                  "x": 326.16656494140625,
+                  "y": 265.5498599112034,
+                  "z": -3.9715347290039062,
+                  "visibility": 0.5282986760139465
+                },
+                {
+                  "x": 327.16798305511475,
+                  "y": 263.53115832805634,
+                  "z": -0.19633211195468903,
+                  "visibility": 0.37112489342689514
+                },
+                {
+                  "x": 330.457950592041,
+                  "y": 266.48615658283234,
+                  "z": -3.436638593673706,
+                  "visibility": 0.48965826630592346
+                },
+                {
+                  "x": 329.29730796813965,
+                  "y": 265.95843866467476,
+                  "z": -0.40685975551605225,
+                  "visibility": 0.36268484592437744
+                },
+                {
+                  "x": 339.92139053344727,
+                  "y": 314.8191134929657,
+                  "z": -1.0758700370788574,
+                  "visibility": 0.005100059323012829
+                },
+                {
+                  "x": 336.7843475341797,
+                  "y": 315.11299562454224,
+                  "z": 1.0848232507705688,
+                  "visibility": 0.005303363315761089
+                },
+                {
+                  "x": 334.9882593154907,
+                  "y": 296.215855717659,
+                  "z": -1.6869988441467285,
+                  "visibility": 0.2560732960700989
+                },
+                {
+                  "x": 331.0194797515869,
+                  "y": 296.4394714832306,
+                  "z": 1.0420289039611816,
+                  "visibility": 0.08902421593666077
+                },
+                {
+                  "x": 326.79834175109863,
+                  "y": 297.7771781682968,
+                  "z": 1.1327061653137207,
+                  "visibility": 0.25556501746177673
+                },
+                {
+                  "x": 328.58004331588745,
+                  "y": 294.6563582420349,
+                  "z": 2.965075731277466,
+                  "visibility": 0.10807671397924423
+                },
+                {
+                  "x": 322.09172942489386,
+                  "y": 299.0926021337509,
+                  "z": 1.2499290704727173,
+                  "visibility": 0.2331281304359436
+                },
+                {
+                  "x": 325.46404480934143,
+                  "y": 296.03990495204926,
+                  "z": 3.214421510696411,
+                  "visibility": 0.13395364582538605
+                },
+                {
+                  "x": 326.0463638305664,
+                  "y": 293.7391200065613,
+                  "z": -0.5687562227249146,
+                  "visibility": 0.29709500074386597
+                },
+                {
+                  "x": 328.3387885093689,
+                  "y": 287.5197821855545,
+                  "z": 1.8920010328292847,
+                  "visibility": 0.169128879904747
+                }
+              ],
+              "confidence": 0.43665633435276424,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              86,
+              240,
+              95,
+              266
+            ],
+            "transformed_position": [
+              494.7176818847656,
+              278.8062438964844
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.04348267987370491,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                {
+                  "x": 106.81863260269165,
+                  "y": 257.2642705440521,
+                  "z": -1.1759166717529297,
+                  "visibility": 0.7910544872283936
+                },
+                {
+                  "x": 107.32746267318726,
+                  "y": 256.44442796707153,
+                  "z": -1.424575686454773,
+                  "visibility": 0.7843990325927734
+                },
+                {
+                  "x": 107.41270542144775,
+                  "y": 256.6927133798599,
+                  "z": -1.422966480255127,
+                  "visibility": 0.7849735021591187
+                },
+                {
+                  "x": 107.45372605323792,
+                  "y": 256.82747864723206,
+                  "z": -1.4208770990371704,
+                  "visibility": 0.7571459412574768
+                },
+                {
+                  "x": 107.24117279052734,
+                  "y": 256.47237718105316,
+                  "z": -1.02998685836792,
+                  "visibility": 0.7662125825881958
+                },
+                {
+                  "x": 107.23676109313965,
+                  "y": 256.5563906431198,
+                  "z": -1.028115153312683,
+                  "visibility": 0.7628006339073181
+                },
+                {
+                  "x": 107.23089456558228,
+                  "y": 256.63321340084076,
+                  "z": -1.0258171558380127,
+                  "visibility": 0.7610289454460144
+                },
+                {
+                  "x": 107.2138614654541,
+                  "y": 258.4872667789459,
+                  "z": -1.779529094696045,
+                  "visibility": 0.682858943939209
+                },
+                {
+                  "x": 107.00980114936829,
+                  "y": 258.4126089811325,
+                  "z": -0.4155482053756714,
+                  "visibility": 0.6769163012504578
+                },
+                {
+                  "x": 106.0662407875061,
+                  "y": 258.935794711113,
+                  "z": -1.263174057006836,
+                  "visibility": 0.6252703666687012
+                },
+                {
+                  "x": 106.20470714569092,
+                  "y": 259.35669112205505,
+                  "z": -0.7937485575675964,
+                  "visibility": 0.6033346056938171
+                },
+                {
+                  "x": 107.69369578361511,
+                  "y": 267.6370816230774,
+                  "z": -2.383143424987793,
+                  "visibility": 0.3316725194454193
+                },
+                {
+                  "x": 101.64562022686005,
+                  "y": 267.5618085861206,
+                  "z": 0.3407909572124481,
+                  "visibility": 0.3435341715812683
+                },
+                {
+                  "x": 99.6088000535965,
+                  "y": 262.2934259176254,
+                  "z": -3.439779281616211,
+                  "visibility": 0.5367476344108582
+                },
+                {
+                  "x": 95.61191701889038,
+                  "y": 260.7926003932953,
+                  "z": -0.42610856890678406,
+                  "visibility": 0.17697589099407196
+                },
+                {
+                  "x": 95.22123610973358,
+                  "y": 254.94560313224792,
+                  "z": -3.4159185886383057,
+                  "visibility": 0.5102543234825134
+                },
+                {
+                  "x": 94.9202498793602,
+                  "y": 254.4368577003479,
+                  "z": -0.1755186915397644,
+                  "visibility": 0.31505247950553894
+                },
+                {
+                  "x": 94.02262502908707,
+                  "y": 252.83540725708008,
+                  "z": -4.070170879364014,
+                  "visibility": 0.5322086811065674
+                },
+                {
+                  "x": 95.41460728645325,
+                  "y": 252.69090974330902,
+                  "z": -0.14755049347877502,
+                  "visibility": 0.3630029857158661
+                },
+                {
+                  "x": 90.68738555908203,
+                  "y": 252.08505028486252,
+                  "z": -3.9715347290039062,
+                  "visibility": 0.5282986760139465
+                },
+                {
+                  "x": 91.81398093700409,
+                  "y": 250.1411154270172,
+                  "z": -0.19633211195468903,
+                  "visibility": 0.37112489342689514
+                },
+                {
+                  "x": 95.51519441604614,
+                  "y": 252.9866693019867,
+                  "z": -3.436638593673706,
+                  "visibility": 0.48965826630592346
+                },
+                {
+                  "x": 94.2094714641571,
+                  "y": 252.47849649190903,
+                  "z": -0.40685975551605225,
+                  "visibility": 0.36268484592437744
+                },
+                {
+                  "x": 106.16156435012817,
+                  "y": 299.52951669692993,
+                  "z": -1.0758700370788574,
+                  "visibility": 0.005100059323012829
+                },
+                {
+                  "x": 102.63239097595215,
+                  "y": 299.81251430511475,
+                  "z": 1.0848232507705688,
+                  "visibility": 0.005303363315761089
+                },
+                {
+                  "x": 100.61179172992706,
+                  "y": 281.6152684688568,
+                  "z": -1.6869988441467285,
+                  "visibility": 0.2560732960700989
+                },
+                {
+                  "x": 96.14691472053528,
+                  "y": 281.83060216903687,
+                  "z": 1.0420289039611816,
+                  "visibility": 0.08902421593666077
+                },
+                {
+                  "x": 91.39813446998596,
+                  "y": 283.1187641620636,
+                  "z": 1.1327061653137207,
+                  "visibility": 0.25556501746177673
+                },
+                {
+                  "x": 93.40254873037338,
+                  "y": 280.1135301589966,
+                  "z": 2.965075731277466,
+                  "visibility": 0.10807671397924423
+                },
+                {
+                  "x": 86.10319560300559,
+                  "y": 284.38546872138977,
+                  "z": 1.2499290704727173,
+                  "visibility": 0.2331281304359436
+                },
+                {
+                  "x": 89.89705041050911,
+                  "y": 281.44583439826965,
+                  "z": 3.214421510696411,
+                  "visibility": 0.13395364582538605
+                },
+                {
+                  "x": 90.5521593093872,
+                  "y": 279.230263710022,
+                  "z": -0.5687562227249146,
+                  "visibility": 0.29709500074386597
+                },
+                {
+                  "x": 93.13113707304001,
+                  "y": 273.24127173423767,
+                  "z": 1.8920010328292847,
+                  "visibility": 0.169128879904747
+                }
+              ],
+              "confidence": 0.43665633435276424,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              226,
+              239,
+              234,
+              262
+            ],
+            "transformed_position": [
+              526.0903930664062,
+              321.18426513671875
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.08050908893346786,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                {
+                  "x": 244.50545120239258,
+                  "y": 254.27223932743073,
+                  "z": -1.1759166717529297,
+                  "visibility": 0.7910544872283936
+                },
+                {
+                  "x": 244.95774459838867,
+                  "y": 253.54699397087097,
+                  "z": -1.424575686454773,
+                  "visibility": 0.7843990325927734
+                },
+                {
+                  "x": 245.03351593017578,
+                  "y": 253.76663106679916,
+                  "z": -1.422966480255127,
+                  "visibility": 0.7849735021591187
+                },
+                {
+                  "x": 245.06997871398926,
+                  "y": 253.88584649562836,
+                  "z": -1.4208770990371704,
+                  "visibility": 0.7571459412574768
+                },
+                {
+                  "x": 244.88104248046875,
+                  "y": 253.57171827554703,
+                  "z": -1.02998685836792,
+                  "visibility": 0.7662125825881958
+                },
+                {
+                  "x": 244.8771209716797,
+                  "y": 253.646037876606,
+                  "z": -1.028115153312683,
+                  "visibility": 0.7628006339073181
+                },
+                {
+                  "x": 244.87190628051758,
+                  "y": 253.71399646997452,
+                  "z": -1.0258171558380127,
+                  "visibility": 0.7610289454460144
+                },
+                {
+                  "x": 244.8567657470703,
+                  "y": 255.35412061214447,
+                  "z": -1.779529094696045,
+                  "visibility": 0.682858943939209
+                },
+                {
+                  "x": 244.67537879943848,
+                  "y": 255.28807717561722,
+                  "z": -0.4155482053756714,
+                  "visibility": 0.6769163012504578
+                },
+                {
+                  "x": 243.8366584777832,
+                  "y": 255.75089532136917,
+                  "z": -1.263174057006836,
+                  "visibility": 0.6252703666687012
+                },
+                {
+                  "x": 243.9597396850586,
+                  "y": 256.12322676181793,
+                  "z": -0.7937485575675964,
+                  "visibility": 0.6033346056938171
+                },
+                {
+                  "x": 245.2832851409912,
+                  "y": 263.4481875896454,
+                  "z": -2.383143424987793,
+                  "visibility": 0.3316725194454193
+                },
+                {
+                  "x": 239.90721797943115,
+                  "y": 263.3815999031067,
+                  "z": 0.3407909572124481,
+                  "visibility": 0.3435341715812683
+                },
+                {
+                  "x": 238.09671115875244,
+                  "y": 258.7211075425148,
+                  "z": -3.439779281616211,
+                  "visibility": 0.5367476344108582
+                },
+                {
+                  "x": 234.54392623901367,
+                  "y": 257.3934541940689,
+                  "z": -0.42610856890678406,
+                  "visibility": 0.17697589099407196
+                },
+                {
+                  "x": 234.19665431976318,
+                  "y": 252.2211104631424,
+                  "z": -3.4159185886383057,
+                  "visibility": 0.5102543234825134
+                },
+                {
+                  "x": 233.92911100387573,
+                  "y": 251.77106642723083,
+                  "z": -0.1755186915397644,
+                  "visibility": 0.31505247950553894
+                },
+                {
+                  "x": 233.1312222480774,
+                  "y": 250.354398727417,
+                  "z": -4.070170879364014,
+                  "visibility": 0.5322086811065674
+                },
+                {
+                  "x": 234.36853981018066,
+                  "y": 250.22657400369644,
+                  "z": -0.14755049347877502,
+                  "visibility": 0.3630029857158661
+                },
+                {
+                  "x": 230.16656494140625,
+                  "y": 249.69062140583992,
+                  "z": -3.9715347290039062,
+                  "visibility": 0.5282986760139465
+                },
+                {
+                  "x": 231.16798305511475,
+                  "y": 247.97098672389984,
+                  "z": -0.19633211195468903,
+                  "visibility": 0.37112489342689514
+                },
+                {
+                  "x": 234.45795059204102,
+                  "y": 250.48820745944977,
+                  "z": -3.436638593673706,
+                  "visibility": 0.48965826630592346
+                },
+                {
+                  "x": 233.29730796813965,
+                  "y": 250.03866997361183,
+                  "z": -0.40685975551605225,
+                  "visibility": 0.36268484592437744
+                },
+                {
+                  "x": 243.92139053344727,
+                  "y": 291.66072630882263,
+                  "z": -1.0758700370788574,
+                  "visibility": 0.005100059323012829
+                },
+                {
+                  "x": 240.7843475341797,
+                  "y": 291.9110703468323,
+                  "z": 1.0848232507705688,
+                  "visibility": 0.005303363315761089
+                },
+                {
+                  "x": 238.98825931549072,
+                  "y": 275.81350672245026,
+                  "z": -1.6869988441467285,
+                  "visibility": 0.2560732960700989
+                },
+                {
+                  "x": 235.0194797515869,
+                  "y": 276.0039942264557,
+                  "z": 1.0420289039611816,
+                  "visibility": 0.08902421593666077
+                },
+                {
+                  "x": 230.79834175109863,
+                  "y": 277.14352214336395,
+                  "z": 1.1327061653137207,
+                  "visibility": 0.25556501746177673
+                },
+                {
+                  "x": 232.58004331588745,
+                  "y": 274.4850459098816,
+                  "z": 2.965075731277466,
+                  "visibility": 0.10807671397924423
+                },
+                {
+                  "x": 226.09172942489386,
+                  "y": 278.26406848430634,
+                  "z": 1.2499290704727173,
+                  "visibility": 0.2331281304359436
+                },
+                {
+                  "x": 229.46404480934143,
+                  "y": 275.66362273693085,
+                  "z": 3.214421510696411,
+                  "visibility": 0.13395364582538605
+                },
+                {
+                  "x": 230.0463638305664,
+                  "y": 273.70369482040405,
+                  "z": -0.5687562227249146,
+                  "visibility": 0.29709500074386597
+                },
+                {
+                  "x": 232.3387885093689,
+                  "y": 268.40574038028717,
+                  "z": 1.8920010328292847,
+                  "visibility": 0.169128879904747
+                }
+              ],
+              "confidence": 0.43665633435276424,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              348,
+              244,
+              356,
+              268
+            ],
+            "transformed_position": [
+              521.4793090820312,
+              379.9869689941406
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.6256558895111084,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                {
+                  "x": 366.5054512023926,
+                  "y": 259.9362497329712,
+                  "z": -1.1759166717529297,
+                  "visibility": 0.7910544872283936
+                },
+                {
+                  "x": 366.9577445983887,
+                  "y": 259.1794719696045,
+                  "z": -1.424575686454773,
+                  "visibility": 0.7843990325927734
+                },
+                {
+                  "x": 367.0335159301758,
+                  "y": 259.4086585044861,
+                  "z": -1.422966480255127,
+                  "visibility": 0.7849735021591187
+                },
+                {
+                  "x": 367.06997871398926,
+                  "y": 259.5330572128296,
+                  "z": -1.4208770990371704,
+                  "visibility": 0.7571459412574768
+                },
+                {
+                  "x": 366.88104248046875,
+                  "y": 259.2052712440491,
+                  "z": -1.02998685836792,
+                  "visibility": 0.7662125825881958
+                },
+                {
+                  "x": 366.8771209716797,
+                  "y": 259.2828221321106,
+                  "z": -1.028115153312683,
+                  "visibility": 0.7628006339073181
+                },
+                {
+                  "x": 366.8719062805176,
+                  "y": 259.35373544692993,
+                  "z": -1.0258171558380127,
+                  "visibility": 0.7610289454460144
+                },
+                {
+                  "x": 366.8567657470703,
+                  "y": 261.0651693344116,
+                  "z": -1.779529094696045,
+                  "visibility": 0.682858943939209
+                },
+                {
+                  "x": 366.6753787994385,
+                  "y": 260.9962544441223,
+                  "z": -0.4155482053756714,
+                  "visibility": 0.6769163012504578
+                },
+                {
+                  "x": 365.8366584777832,
+                  "y": 261.47919511795044,
+                  "z": -1.263174057006836,
+                  "visibility": 0.6252703666687012
+                },
+                {
+                  "x": 365.9597396850586,
+                  "y": 261.867714881897,
+                  "z": -0.7937485575675964,
+                  "visibility": 0.6033346056938171
+                },
+                {
+                  "x": 367.2832851409912,
+                  "y": 269.51115226745605,
+                  "z": -2.383143424987793,
+                  "visibility": 0.3316725194454193
+                },
+                {
+                  "x": 361.90721797943115,
+                  "y": 269.4416694641113,
+                  "z": 0.3407909572124481,
+                  "visibility": 0.3435341715812683
+                },
+                {
+                  "x": 360.09671115875244,
+                  "y": 264.578547000885,
+                  "z": -3.439779281616211,
+                  "visibility": 0.5367476344108582
+                },
+                {
+                  "x": 356.5439262390137,
+                  "y": 263.19316959381104,
+                  "z": -0.42610856890678406,
+                  "visibility": 0.17697589099407196
+                },
+                {
+                  "x": 356.1966543197632,
+                  "y": 257.79594135284424,
+                  "z": -3.4159185886383057,
+                  "visibility": 0.5102543234825134
+                },
+                {
+                  "x": 355.92911100387573,
+                  "y": 257.3263301849365,
+                  "z": -0.1755186915397644,
+                  "visibility": 0.31505247950553894
+                },
+                {
+                  "x": 355.1312222480774,
+                  "y": 255.8480682373047,
+                  "z": -4.070170879364014,
+                  "visibility": 0.5322086811065674
+                },
+                {
+                  "x": 356.36853981018066,
+                  "y": 255.71468591690063,
+                  "z": -0.14755049347877502,
+                  "visibility": 0.3630029857158661
+                },
+                {
+                  "x": 352.16656494140625,
+                  "y": 255.1554310321808,
+                  "z": -3.9715347290039062,
+                  "visibility": 0.5282986760139465
+                },
+                {
+                  "x": 353.16798305511475,
+                  "y": 253.36102962493896,
+                  "z": -0.19633211195468903,
+                  "visibility": 0.37112489342689514
+                },
+                {
+                  "x": 356.457950592041,
+                  "y": 255.9876947402954,
+                  "z": -3.436638593673706,
+                  "visibility": 0.48965826630592346
+                },
+                {
+                  "x": 355.29730796813965,
+                  "y": 255.51861214637756,
+                  "z": -0.40685975551605225,
+                  "visibility": 0.36268484592437744
+                },
+                {
+                  "x": 365.92139053344727,
+                  "y": 298.9503231048584,
+                  "z": -1.0758700370788574,
+                  "visibility": 0.005100059323012829
+                },
+                {
+                  "x": 362.7843475341797,
+                  "y": 299.21155166625977,
+                  "z": 1.0848232507705688,
+                  "visibility": 0.005303363315761089
+                },
+                {
+                  "x": 360.9882593154907,
+                  "y": 282.41409397125244,
+                  "z": -1.6869988441467285,
+                  "visibility": 0.2560732960700989
+                },
+                {
+                  "x": 357.0194797515869,
+                  "y": 282.6128635406494,
+                  "z": 1.0420289039611816,
+                  "visibility": 0.08902421593666077
+                },
+                {
+                  "x": 352.79834175109863,
+                  "y": 283.80193614959717,
+                  "z": 1.1327061653137207,
+                  "visibility": 0.25556501746177673
+                },
+                {
+                  "x": 354.58004331588745,
+                  "y": 281.0278739929199,
+                  "z": 2.965075731277466,
+                  "visibility": 0.10807671397924423
+                },
+                {
+                  "x": 348.09172942489386,
+                  "y": 284.9712018966675,
+                  "z": 1.2499290704727173,
+                  "visibility": 0.2331281304359436
+                },
+                {
+                  "x": 351.46404480934143,
+                  "y": 282.25769329071045,
+                  "z": 3.214421510696411,
+                  "visibility": 0.13395364582538605
+                },
+                {
+                  "x": 352.0463638305664,
+                  "y": 280.21255111694336,
+                  "z": -0.5687562227249146,
+                  "visibility": 0.29709500074386597
+                },
+                {
+                  "x": 354.3387885093689,
+                  "y": 274.684250831604,
+                  "z": 1.8920010328292847,
+                  "visibility": 0.169128879904747
+                }
+              ],
+              "confidence": 0.43665633435276424,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              22,
+              238,
+              33,
+              261
+            ],
+            "transformed_position": [
+              501.7320251464844,
+              238.91131591796875
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.2460128664970398,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                {
+                  "x": 47.444995403289795,
+                  "y": 253.27223932743073,
+                  "z": -1.1759166717529297,
+                  "visibility": 0.7910544872283936
+                },
+                {
+                  "x": 48.066898822784424,
+                  "y": 252.54699397087097,
+                  "z": -1.424575686454773,
+                  "visibility": 0.7843990325927734
+                },
+                {
+                  "x": 48.1710844039917,
+                  "y": 252.76663106679916,
+                  "z": -1.422966480255127,
+                  "visibility": 0.7849735021591187
+                },
+                {
+                  "x": 48.22122073173523,
+                  "y": 252.88584649562836,
+                  "z": -1.4208770990371704,
+                  "visibility": 0.7571459412574768
+                },
+                {
+                  "x": 47.96143341064453,
+                  "y": 252.57171827554703,
+                  "z": -1.02998685836792,
+                  "visibility": 0.7662125825881958
+                },
+                {
+                  "x": 47.95604133605957,
+                  "y": 252.646037876606,
+                  "z": -1.028115153312683,
+                  "visibility": 0.7628006339073181
+                },
+                {
+                  "x": 47.94887113571167,
+                  "y": 252.71399646997452,
+                  "z": -1.0258171558380127,
+                  "visibility": 0.7610289454460144
+                },
+                {
+                  "x": 47.92805290222168,
+                  "y": 254.35412061214447,
+                  "z": -1.779529094696045,
+                  "visibility": 0.682858943939209
+                },
+                {
+                  "x": 47.678645849227905,
+                  "y": 254.28807717561722,
+                  "z": -0.4155482053756714,
+                  "visibility": 0.6769163012504578
+                },
+                {
+                  "x": 46.525405406951904,
+                  "y": 254.75089532136917,
+                  "z": -1.263174057006836,
+                  "visibility": 0.6252703666687012
+                },
+                {
+                  "x": 46.694642066955566,
+                  "y": 255.12322676181793,
+                  "z": -0.7937485575675964,
+                  "visibility": 0.6033346056938171
+                },
+                {
+                  "x": 48.514517068862915,
+                  "y": 262.4481875896454,
+                  "z": -2.383143424987793,
+                  "visibility": 0.3316725194454193
+                },
+                {
+                  "x": 41.122424721717834,
+                  "y": 262.3815999031067,
+                  "z": 0.3407909572124481,
+                  "visibility": 0.3435341715812683
+                },
+                {
+                  "x": 38.63297784328461,
+                  "y": 257.7211075425148,
+                  "z": -3.439779281616211,
+                  "visibility": 0.5367476344108582
+                },
+                {
+                  "x": 33.7478985786438,
+                  "y": 256.3934541940689,
+                  "z": -0.42610856890678406,
+                  "visibility": 0.17697589099407196
+                },
+                {
+                  "x": 33.27039968967438,
+                  "y": 251.2211104631424,
+                  "z": -3.4159185886383057,
+                  "visibility": 0.5102543234825134
+                },
+                {
+                  "x": 32.90252763032913,
+                  "y": 250.77106642723083,
+                  "z": -0.1755186915397644,
+                  "visibility": 0.31505247950553894
+                },
+                {
+                  "x": 31.805430591106415,
+                  "y": 249.354398727417,
+                  "z": -4.070170879364014,
+                  "visibility": 0.5322086811065674
+                },
+                {
+                  "x": 33.50674223899841,
+                  "y": 249.22657400369644,
+                  "z": -0.14755049347877502,
+                  "visibility": 0.3630029857158661
+                },
+                {
+                  "x": 27.729026794433594,
+                  "y": 248.69062140583992,
+                  "z": -3.9715347290039062,
+                  "visibility": 0.5282986760139465
+                },
+                {
+                  "x": 29.105976700782776,
+                  "y": 246.97098672389984,
+                  "z": -0.19633211195468903,
+                  "visibility": 0.37112489342689514
+                },
+                {
+                  "x": 33.6296820640564,
+                  "y": 249.48820745944977,
+                  "z": -3.436638593673706,
+                  "visibility": 0.48965826630592346
+                },
+                {
+                  "x": 32.03379845619202,
+                  "y": 249.03866997361183,
+                  "z": -0.40685975551605225,
+                  "visibility": 0.36268484592437744
+                },
+                {
+                  "x": 46.64191198348999,
+                  "y": 290.66072630882263,
+                  "z": -1.0758700370788574,
+                  "visibility": 0.005100059323012829
+                },
+                {
+                  "x": 42.32847785949707,
+                  "y": 290.9110703468323,
+                  "z": 1.0848232507705688,
+                  "visibility": 0.005303363315761089
+                },
+                {
+                  "x": 39.858856558799744,
+                  "y": 274.81350672245026,
+                  "z": -1.6869988441467285,
+                  "visibility": 0.2560732960700989
+                },
+                {
+                  "x": 34.40178465843201,
+                  "y": 275.0039942264557,
+                  "z": 1.0420289039611816,
+                  "visibility": 0.08902421593666077
+                },
+                {
+                  "x": 28.59771990776062,
+                  "y": 276.14352214336395,
+                  "z": 1.1327061653137207,
+                  "visibility": 0.25556501746177673
+                },
+                {
+                  "x": 31.047559559345245,
+                  "y": 273.4850459098816,
+                  "z": 2.965075731277466,
+                  "visibility": 0.10807671397924423
+                },
+                {
+                  "x": 22.126127959229052,
+                  "y": 277.26406848430634,
+                  "z": 1.2499290704727173,
+                  "visibility": 0.2331281304359436
+                },
+                {
+                  "x": 26.763061612844467,
+                  "y": 274.66362273693085,
+                  "z": 3.214421510696411,
+                  "visibility": 0.13395364582538605
+                },
+                {
+                  "x": 27.56375026702881,
+                  "y": 272.70369482040405,
+                  "z": -0.5687562227249146,
+                  "visibility": 0.29709500074386597
+                },
+                {
+                  "x": 30.715834200382233,
+                  "y": 267.40574038028717,
+                  "z": 1.8920010328292847,
+                  "visibility": 0.169128879904747
+                }
+              ],
+              "confidence": 0.43665633435276424,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              25,
+              238,
+              35,
+              260
+            ],
+            "transformed_position": [
+              505.32037353515625,
+              235.9766082763672
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.6980814933776855,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              316,
+              247,
+              324,
+              270
+            ],
+            "transformed_position": [
+              511.06170654296875,
+              370.5549621582031
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.23276056349277496,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          }
+        ],
+        "goalkeepers": [
+          {
+            "bbox": [
+              177,
+              227,
+              184,
+              248
+            ],
+            "transformed_position": [
+              585.6317138671875,
+              249.90194702148438
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.0018980095628648996,
+            "number": null,
+            "pose": null,
+            "orientation": null,
+            "manually_adjusted": false
+          },
+          {
+            "bbox": [
+              139,
+              228,
+              145,
+              246
+            ],
+            "transformed_position": [
+              590.6924438476562,
+              219.02688598632812
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.058281783014535904,
+            "number": null,
+            "pose": null,
+            "orientation": null,
+            "manually_adjusted": false
+          }
+        ],
+        "ball": {
+          "bbox": [
+            305,
+            252,
+            325,
+            272
+          ],
+          "transformed_position": [
+            538.32763671875,
+            356.1326599121094
+          ],
+          "manually_adjusted": true
+        },
+        "homography": [
+          [
+            -0.008773965956611412,
+            -1.5781979187038264,
+            274.7131268583553
+          ],
+          [
+            -0.09034992014437883,
+            -2.215540538537627,
+            515.296506886161
+          ],
+          [
+            5.527253233257317e-05,
+            -0.004886769073345501,
+            1.0
+          ]
+        ],
+        "calibration_points": {
+          "image_points": [
+            [
+              491,
+              356
+            ],
+            [
+              524,
+              257
+            ],
+            [
+              194,
+              247
+            ],
+            [
+              7,
+              316
+            ]
+          ],
+          "template_points": [
+            [
+              409,
+              446
+            ],
+            [
+              597,
+              447
+            ],
+            [
+              595,
+              252
+            ],
+            [
+              412,
+              341
+            ]
+          ]
+        },
+        "visible_area": [
+          [
+            274.713134765625,
+            515.2965087890625
+          ],
+          [
+            260.7997131347656,
+            446.2861328125
+          ],
+          [
+            378.031494140625,
+            459.65753173828125
+          ],
+          [
+            363.1853332519531,
+            401.7333068847656
+          ]
+        ]
+      },
+      "ball_position": [
+        483.11065673828125,
+        392.42559814453125
+      ]
+    },
+    {
+      "event_number": 3,
+      "timestamp": 8.48,
+      "start_frame": 181,
+      "end_frame": 212,
+      "event_name": "miss from play",
+      "team": "Team 1",
+      "player_number": 13,
+      "body_part": "LF",
+      "ball_start_location": {
+        "x": 446,
+        "y": 356
+      },
+      "ball_end_location": {
+        "x": 447,
+        "y": 357
+      },
+      "half": "1",
+      "calibration_data": {
+        "players": [
+          {
+            "bbox": [
+              124,
+              276,
+              136,
+              318
+            ],
+            "transformed_position": [
+              412.665283203125,
+              327.60906982421875
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.10758911818265915,
+            "number": 4,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              296,
+              265,
+              310,
+              298
+            ],
+            "transformed_position": [
+              440.77386474609375,
+              371.070556640625
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.0877658948302269,
+            "number": 13,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              334,
+              279,
+              344,
+              321
+            ],
+            "transformed_position": [
+              422.8506164550781,
+              390.9095764160156
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.9225267767906189,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              435,
+              256,
+              446,
+              286
+            ],
+            "transformed_position": [
+              473.7631530761719,
+              433.5799560546875
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.2933039963245392,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              371,
+              259,
+              386,
+              296
+            ],
+            "transformed_position": [
+              450.08697509765625,
+              401.8520812988281
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.08351335674524307,
+            "number": 15,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              344,
+              251,
+              356,
+              280
+            ],
+            "transformed_position": [
+              474.890380859375,
+              384.191162109375
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.09724565595388412,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              150,
+              260,
+              162,
+              295
+            ],
+            "transformed_position": [
+              431.7803649902344,
+              311.9406433105469
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.08788833767175674,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              18,
+              253,
+              30,
+              283
+            ],
+            "transformed_position": [
+              433.44964599609375,
+              238.7528533935547
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.778083324432373,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              390,
+              252,
+              399,
+              279
+            ],
+            "transformed_position": [
+              483.5597839355469,
+              409.4703674316406
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.307400107383728,
+            "number": 13,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              256,
+              244,
+              267,
+              270
+            ],
+            "transformed_position": [
+              487.1706237792969,
+              321.5602722167969
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.04076770693063736,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              76,
+              238,
+              82,
+              262
+            ],
+            "transformed_position": [
+              479.52020263671875,
+              185.42987060546875
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.5633557438850403,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              280,
+              261,
+              293,
+              294
+            ],
+            "transformed_position": [
+              444.15191650390625,
+              362.0223388671875
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.14700882136821747,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              332,
+              253,
+              339,
+              279
+            ],
+            "transformed_position": [
+              475.17364501953125,
+              375.62054443359375
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.2661018967628479,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              135,
+              240,
+              145,
+              265
+            ],
+            "transformed_position": [
+              481.2486877441406,
+              234.4337158203125
+            ],
+            "jersey_colour": "team_1",
+            "colour_confidence": 0.03753926604986191,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              271,
+              261,
+              283,
+              295
+            ],
+            "transformed_position": [
+              442.0548400878906,
+              358.8092956542969
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.031996555626392365,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              323,
+              235,
+              334,
+              256
+            ],
+            "transformed_position": [
+              568.4805297851562,
+              342.8720703125
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.015367168933153152,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              129,
+              236,
+              135,
+              259
+            ],
+            "transformed_position": [
+              499.7744140625,
+              200.71922302246094
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.09762061387300491,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          },
+          {
+            "bbox": [
+              144,
+              241,
+              152,
+              268
+            ],
+            "transformed_position": [
+              474.3818359375,
+              250.25660705566406
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.3956453502178192,
+            "number": null,
+            "pose": {
+              "landmarks": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "confidence": 0.0,
+              "orientation": null
+            },
+            "orientation": "facing_right",
+            "manually_adjusted": true
+          }
+        ],
+        "goalkeepers": [
+          {
+            "bbox": [
+              242,
+              226,
+              252,
+              250
+            ],
+            "transformed_position": [
+              588.077880859375,
+              235.41458129882812
+            ],
+            "jersey_colour": "team_2",
+            "colour_confidence": 0.0026120503898710012,
+            "number": null,
+            "pose": null,
+            "orientation": null,
+            "manually_adjusted": false
+          }
+        ],
+        "ball": {
+          "bbox": null,
+          "transformed_position": null,
+          "manually_adjusted": false
+        },
+        "homography": [
+          [
+            0.02751013659860922,
+            -1.6399751132613056,
+            337.7369999083821
+          ],
+          [
+            -0.08221605015000805,
+            -1.8598732068898534,
+            459.07053836832887
+          ],
+          [
+            0.0001252992338945052,
+            -0.004569054861137034,
+            1.0
+          ]
+        ],
+        "calibration_points": {
+          "image_points": [
+            [
+              583,
+              372
+            ],
+            [
+              3,
+              310
+            ],
+            [
+              222,
+              248
+            ],
+            [
+              268,
+              250
+            ]
+          ],
+          "template_points": [
+            [
+              409,
+              448
+            ],
+            [
+              410,
+              283
+            ],
+            [
+              597,
+              194
+            ],
+            [
+              597,
+              257
+            ]
+          ]
+        },
+        "visible_area": [
+          [
+            337.73699951171875,
+            459.0705261230469
+          ],
+          [
+            329.4734191894531,
+            381.0906982421875
+          ],
+          [
+            391.21990966796875,
+            435.52264404296875
+          ],
+          [
+            378.99951171875,
+            357.80841064453125
+          ]
+        ]
+      },
+      "ball_position": [
+        440.77386474609375,
+        371.070556640625
+      ]
+    }
+  ]
+}
