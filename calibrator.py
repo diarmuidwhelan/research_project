@@ -215,7 +215,7 @@ class PlayerEditor:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
             base_dir = Path("training_data")
             
-            # Color classification
+            # Colour classification
             colour_path = base_dir / "colour_classification/images" / f"{timestamp}.jpg"
             colour_path.parent.mkdir(parents=True, exist_ok=True)
             cv2.imwrite(str(colour_path), roi)
@@ -647,7 +647,7 @@ class GaelicFootballCalibrator:
         self.team1_colour = None
         self.team2_colour = None
         
-        # Initialize models and variables
+        # Initialise models and variables
         self.template_path = "/Users/diarmuidwhelan/Downloads/research_project/PitchTemplate.png"
         self.current_frame = None
         self.homography = None
@@ -662,7 +662,7 @@ class GaelicFootballCalibrator:
         # Load models
         self.load_models()
         
-        # Initialize MediaPipe Pose
+        # Initialise MediaPipe Pose
         self.mp_pose = mp.solutions.pose
         self.pose = self.mp_pose.Pose(
             static_image_mode=False,
