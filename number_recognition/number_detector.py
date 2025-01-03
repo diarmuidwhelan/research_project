@@ -205,7 +205,6 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, device, n
             train_correct += predicted.eq(labels).sum().item()
         
         train_acc = 100. * train_correct / train_total
-        
         # Validation phase
         model.eval()
         val_loss = 0.0
@@ -227,8 +226,7 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, device, n
                 val_correct += predicted.eq(labels).sum().item()
         
         val_acc = 100. * val_correct / val_total
-        
-        # Update metrics
+          # Update metrics
         metrics['train_acc'].append(train_acc)
         metrics['val_acc'].append(val_acc)
         metrics['train_loss'].append(running_loss/len(train_loader))
